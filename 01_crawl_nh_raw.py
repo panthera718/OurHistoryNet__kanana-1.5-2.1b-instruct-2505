@@ -14,7 +14,7 @@ OUTPUT_PATH = "nh_raw.jsonl"
 MAX_PAGES = 20  # Safety device: Avoid scratching too much
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; ClovaX-StudyBot/1.0)"
+    "User-Agent": "Mozilla/5.0 (compatible; kanana-StudyBot/1.0)"
 }
 
 def clean_text(text: str) -> str:
