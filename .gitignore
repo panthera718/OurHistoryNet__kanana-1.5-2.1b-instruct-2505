@@ -1,0 +1,18 @@
+# outputs / data
+nh_raw.jsonl
+history_sft_train.jsonl
+Kanana-history-lora/
+*.pt
+*.bin
+*.safetensors
+
+# caches
+__pycache__/
+*.pyc
+.cache/
+.huggingface/
+wandb/
+
+# env
+venv/
+.venv/
