@@ -19,7 +19,7 @@ from peft import LoraConfig, get_peft_model
 BASE_MODEL_PATH = "./kanana-1.5-2.1b-instruct-2505"
 DATA_PATH       = "history_sft_train.jsonl"
 OUTPUT_DIR      = "./Kanana-history-lora"
-MAX_SEQ_LEN     = 4096
+MAX_SEQ_LEN     = 2048
 
 # Llama-family module names (Kanana config.json says model_type = "llama")
 TARGET_MODULES: List[str] = [
