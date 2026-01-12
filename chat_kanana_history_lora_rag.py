@@ -204,7 +204,7 @@ def main():
                 **inputs,
                 max_new_tokens=2048,
                 do_sample=True,
-                top_p=0.9,
+                top_p=0.4,
                 temperature=0.8,
                 eos_token_id=tokenizer.eos_token_id,
                 pad_token_id=tokenizer.pad_token_id,
